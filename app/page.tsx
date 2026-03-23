@@ -12,10 +12,10 @@ export default function HayaideHomepage() {
             <a href="#solution" className="hover:text-slate-600">Solution</a>
             <a href="#features" className="hover:text-slate-600">Features</a>
             <a href="https://forms.gle/Aep256QXnTAe3KSBA" className="hover:text-slate-600">Contact</a>
+            <a href="/en" className="hover:text-slate-600">EN</a>
           </nav>
         </div>
       </header>
-
       <section className="mx-auto grid max-w-6xl gap-10 px-6 py-20 md:grid-cols-2 md:py-28">
         <div className="flex flex-col justify-center">
           <div className="mb-4 inline-block w-fit rounded-full border px-3 py-1 text-xs text-slate-600">
