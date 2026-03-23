@@ -1,4 +1,10 @@
 import "./globals.css";
+import { Zen_Maru_Gothic } from "next/font/google";
+
+const font = Zen_Maru_Gothic({
+  subsets: ["latin"],
+  weight: ["400", "500", "700"],
+});
 
 export const metadata = {
   title: "HAYAIDE",
@@ -12,7 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ja">
-      <body>{children}</body>
+      <body className={font.className}>{children}</body>
     </html>
   );
 }
