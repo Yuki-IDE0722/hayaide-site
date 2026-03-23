@@ -11,7 +11,7 @@ export default function HayaideHomepage() {
             <a href="#about" className="hover:text-slate-600">About</a>
             <a href="#solution" className="hover:text-slate-600">Solution</a>
             <a href="#features" className="hover:text-slate-600">Features</a>
-            <a href="#contact" className="hover:text-slate-600">Contact</a>
+            <a href="https://forms.gle/Aep256QXnTAe3KSBA" className="hover:text-slate-600">Contact</a>
           </nav>
         </div>
       </header>
